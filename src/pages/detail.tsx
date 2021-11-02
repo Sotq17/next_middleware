@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const detail:NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,13 +14,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js! DetailPage</a>
         </h1>
-
-        <Link href="/detail">
-          <a>Detail</a>
+        <Link href="/">
+          <a>Home</a>
         </Link>
 
         <p className={styles.description}>
@@ -75,4 +73,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default detail
