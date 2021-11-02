@@ -1,0 +1,24 @@
+{
+  "sortedMiddleware": [
+    "/"
+  ],
+  "clientInfo": [
+    [
+      "/",
+      false
+    ]
+  ],
+  "middleware": {
+    "/": {
+      "env": [],
+      "files": [
+        "static/chunks/webpack-middleware-27593bf8d60abcde.js",
+        "server/pages/_middleware.js"
+      ],
+      "name": "pages/_middleware",
+      "page": "/",
+      "regexp": "^/(?!_next).*$"
+    }
+  },
+  "version": 1
+}
